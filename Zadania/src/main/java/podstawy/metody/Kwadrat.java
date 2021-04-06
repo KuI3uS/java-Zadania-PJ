@@ -1,8 +1,6 @@
-package Podstawy.Metody;
+package podstawy.metody;
 
 import java.util.Scanner;
-
-import static java.lang.Math.hypot;
 
 public class Kwadrat {
     public static void main (String[] args){

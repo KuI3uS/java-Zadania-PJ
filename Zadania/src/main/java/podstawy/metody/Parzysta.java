@@ -1,4 +1,4 @@
-package Podstawy.Metody;
+package podstawy.metody;
 
 import java.util.Scanner;
 //Napisz metodę, która jako argument przyjmuje liczbę i zwraca true jeśli liczba jest parzysta,

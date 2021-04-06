@@ -1,4 +1,4 @@
-package Podstawy.Metody;
+package podstawy.metody;
 
 import java.util.Scanner;
 //Napisz metodę, która zwróci Twoje imię,

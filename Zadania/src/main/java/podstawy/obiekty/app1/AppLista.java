@@ -1,4 +1,6 @@
-package podstawy.obiekty;
+package podstawy.obiekty.app1;
+
+import podstawy.obiekty.app1.Party;
 
 import java.util.Scanner;
 

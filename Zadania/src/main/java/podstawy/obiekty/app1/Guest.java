@@ -1,4 +1,4 @@
-package podstawy.obiekty;
+package podstawy.obiekty.app1;
 
 public class Guest {
     private String name;

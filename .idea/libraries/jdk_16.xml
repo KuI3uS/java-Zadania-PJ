@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="jdk-16">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../../usr/java/jdk-16" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

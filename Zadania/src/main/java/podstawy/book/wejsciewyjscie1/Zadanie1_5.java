@@ -1,5 +1,7 @@
 package podstawy.book.wejsciewyjscie1;
 
+//jakub M.
+
 public class Zadanie1_5 {
     public static void main (String[] args){
         int a = 37;
@@ -7,5 +9,6 @@ public class Zadanie1_5 {
 
         System.out.println ("program wyświetla wynik dzielenia dla dwóch liczb całkowitych");
         System.out.println (a / b);
+
     }
 }

@@ -1,6 +1,7 @@
 package obiektowe_komputer;
 
 import obiektowe_komputer.drive.Drive;
+import obiektowe_komputer.usbdevice.USBDevice;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -10,7 +11,7 @@ public class Computer {
     private Drive drive;
     private Headphones headphones;
 
-    List<USBDrive> usbDrives = new ArrayList<> ();
+    List<USBDevice> usbDrives = new ArrayList<> ();
 
     //konstruktor
 
@@ -44,7 +45,24 @@ public class Computer {
         this.headphones = headphones;
     }
 
-    public List<USBDrive> getUsbDrives() {
+    public List<USBDevice> getUsbDrives() {
         return usbDrives;
+    }
+
+    public void addUSBDevice (USBDevice usbDevice){
+        boolean isConnected = usbDevice.connect ();
+
+        if (isConnected){
+            usbDrives.add ( usbDevice );
+        }
+    }
+
+    public void removeUSBDevice(USBDevice usbDevice){
+        boolean idDisconnected = usbDevice.disconnect ();
+
+        if(!idDisconnected){
+            System.out.println ("forcibly removed USB Divice");
+        }
+        usbDrives.remove ( usbDevice );
     }
 }
